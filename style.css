@@ -1,0 +1,72 @@
+/* ==========================================================================
+   CSS by @izolate
+   ========================================================================== */
+
+/* Global
+   ========================================================================== */
+
+:root {
+  --font-size: 16px;
+  --font-family: sans-serif;
+  --line-height: 1.55;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: var(--font-size);
+  font-family: var(--font-family);
+}
+
+body {
+  line-height: var(--line-height);
+  font-size: 100%;
+}
+
+/* Typography
+   ========================================================================== */
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: bold;
+  margin: 2.75rem 0 1rem;
+  line-height: 1.15;
+}
+
+h1 {
+  font-size: 3.052em;
+}
+
+h2 {
+  font-size: 2.441em;
+}
+
+h3 {
+  font-size: 1.953em;
+}
+
+h4 {
+  font-size: 1.563em;
+}
+
+h5 {
+  font-size: 1.25em;
+}
+
+small {
+  font-size: 0.8em;
+}
+
+/* Elements
+   ========================================================================== */
+
+p {
+  margin-bottom: 1.25em;
+}
