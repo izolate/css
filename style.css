@@ -10,6 +10,7 @@
   --font-family: sans-serif;
   --line-height: 1.55;
   --text-decoration-style: normal;
+  --table-border-color: rgba(0, 0, 0, 0.2);
 }
 
 * {
@@ -80,4 +81,25 @@ a {
 
 p {
   margin-bottom: 1.25em;
+}
+
+/* ==========================================================================
+   Tables
+   ========================================================================== */
+
+.table td,
+.table th {
+  padding: 0.5em 0.75em;
+  vertical-align: top;
+  border: 1px solid var(--table-border-color);
+  border-width: 0 0 1px;
+}
+
+.table th {
+  font-weight: bold;
+  border-width: 0 0 2px;
+}
+
+.table th:not([align]) {
+  text-align: left;
 }

@@ -20,7 +20,6 @@
         font-weight: 500;
         color: #333;
         background-color: #76a08b;
-        padding-bottom: 2em;
       }
       main {
         grid-column: 2;
@@ -32,6 +31,9 @@
       a:hover {
         color: rgba(255, 255, 255, 0.65);
       }
+      footer {
+        margin: 3em 0;
+      }
     </style>
   </head>
   <body>
@@ -42,7 +44,7 @@
           This example page showcases the CSS framework
         </span>
         <br />
-        <h2>What is it?</h2>
+        <h2>The H2 heading</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -79,15 +81,50 @@
           Featured below are some of the components you can create with this
           theme.
         </p>
+
         <h3>Links</h3>
+        <p>This is not a link. However, <a href="">this a link</a></p>
+
+        <h3>Lists</h3>
+        <p>Things I like to do:</p>
         <ul>
-          <li>This is not a link</li>
-          <li>However, <a href="">this a link</a></li>
+          <li>Create lists</li>
+          <li>Be productive</li>
+          <li>???</li>
+          <li>Profit</li>
         </ul>
+
         <h3>Buttons</h3>
         <p>TODO</p>
+
         <h3>Tables</h3>
-        <p>TODO</p>
+        <p>Tables are useful for organizing large datasets.</p>
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Fruit</th>
+              <th>Emoji</th>
+              <th>Rating</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Mango</td>
+              <td>🥭</td>
+              <td>Delicious!</td>
+            </tr>
+            <tr>
+              <td>Kiwi</td>
+              <td>🥝</td>
+              <td>Not good</td>
+            </tr>
+            <tr>
+              <td>Grapes</td>
+              <td>🍇</td>
+              <td>Great</td>
+            </tr>
+          </tbody>
+        </table>
       </section>
 
       <footer>
