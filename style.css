@@ -9,6 +9,7 @@
   --font-size: 16px;
   --font-family: sans-serif;
   --line-height: 1.55;
+  --text-decoration-style: normal;
 }
 
 * {
@@ -68,6 +69,14 @@ small {
 /* ==========================================================================
    Elements
    ========================================================================== */
+
+a {
+  color: inherit;
+  text-decoration-style: var(--text-decoration-style);
+  text-decoration-skip-ink: auto;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 2px;
+}
 
 p {
   margin-bottom: 1.25em;

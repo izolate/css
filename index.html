@@ -20,6 +20,7 @@
         font-weight: 500;
         color: #333;
         background-color: #76a08b;
+        padding-bottom: 2em;
       }
       main {
         grid-column: 2;
@@ -29,7 +30,7 @@
         margin: 2em 0;
       }
       a:hover {
-        background-color: rgba(255, 255, 255, 0.65);
+        color: rgba(255, 255, 255, 0.65);
       }
     </style>
   </head>
@@ -78,9 +79,29 @@
           Featured below are some of the components you can create with this
           theme.
         </p>
+        <h3>Links</h3>
+        <ul>
+          <li>This is not a link</li>
+          <li>However, <a href="">this a link</a></li>
+        </ul>
         <h3>Buttons</h3>
         <p>TODO</p>
+        <h3>Tables</h3>
+        <p>TODO</p>
       </section>
+
+      <footer>
+        <small>Created by <a href="https://izolate.net">izolate</a></small>
+        <br />
+        <small>&copy; <span class="date"></span>. MIT Licensed.</small>
+      </footer>
     </main>
+    <script>
+      // Add date to copyright footer.
+      const now = new Date();
+      for (const el of document.querySelectorAll(".date")) {
+        el.textContent = now.getFullYear();
+      }
+    </script>
   </body>
 </html>
