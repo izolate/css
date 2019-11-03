@@ -28,20 +28,22 @@
   --table-border-color: rgba(0, 0, 0, 0.2);
 }
 
-* {
-  box-sizing: border-box;
-}
-
 html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: var(--font-size);
   font-family: var(--font-family);
+  box-sizing: border-box;
 }
 
 body {
   line-height: var(--line-height);
   font-size: 100%;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
 }
 
 /* ==========================================================================
